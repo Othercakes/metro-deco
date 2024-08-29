@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "metro_deco",
+  "version": "1.1.0",
+  "name": "Metro Deco",
+  "authors": [
+    "Othercakes"
+  ],
+  "contact": {
+    "homepage": "https://ko-fi.com/othercakes",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "metro_deco.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.othercakes.metro_deco.MetroDecoMod"
+    ],
+    "client": [
+      "net.othercakes.metro_deco.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "metro_deco.mixins.json"
+  ]
+}

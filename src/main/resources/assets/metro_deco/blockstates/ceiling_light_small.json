@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "metro_deco:block/ceiling_light_small"
+    },
+    "facing=east": {
+      "model": "metro_deco:block/ceiling_light_small",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "metro_deco:block/ceiling_light_small",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "metro_deco:block/ceiling_light_small",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "metro_deco:block/ceiling_light_small",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "metro_deco:block/ceiling_light_small",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.othercakes.metro_deco.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "MetroDecoModRepairItemRecipeMixin"  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

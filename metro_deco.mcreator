@@ -1,0 +1,102 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ceilinglamp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_light_small",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/metro_deco/blockstates/ceiling_light_small.json",
+          "src/main/java/net/othercakes/metro_deco/block/CeilinglampBlock.java",
+          "src/main/resources/assets/metro_deco/models/item/ceiling_light_small.json",
+          "src/main/resources/assets/metro_deco/models/block/ceiling_light_small.json"
+        ]
+      }
+    },
+    {
+      "name": "CeilinglampOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceilinglamp_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/othercakes/metro_deco/procedures/CeilinglampOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MetroDeco",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metro_deco",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ceilinglightsmall",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceilinglightsmall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/metro_deco/recipes/ceiling_light_small.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.metro_deco.ceiling_light_small": "Ceiling Light (Small)",
+      "item_group.metro_deco.metro_deco": "Metro Deco"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "metro_deco",
+    "modName": "Metro Deco",
+    "version": "1.1.0",
+    "author": "Othercakes",
+    "websiteURL": "https://ko-fi.com/othercakes",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.othercakes.metro_deco",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

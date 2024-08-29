@@ -1,0 +1,9 @@
+{
+  "parent": "metro_deco:custom/ceiling_light",
+  "textures": {
+    "all": "metro_deco:block/ceiling_light",
+    "particle": "metro_deco:block/ceiling_light",
+    "0": "metro_deco:block/ceiling_light"
+  },
+  "render_type": "solid"
+}
